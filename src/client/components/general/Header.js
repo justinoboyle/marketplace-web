@@ -8,14 +8,18 @@ export default class Header extends Component {
             <div class="primary-header">
                 <ul class="header-options">
                     <li><Link href="/"><a>Home</a></Link></li>
-                    <li><Link href="/"><a>Partners</a></Link></li>
-                    <li><Link href="/product/test"><a>Test Product</a></Link></li>
+                    <li><Link href="/"><a>Products ▾</a></Link></li>
+                    <li><Link href="/product/test"><a>Services ▾</a></Link></li>
 
                 </ul>
             </div>
             <div class="spacer-center"></div>
             <div class="secondary-header">
-                <input />
+                <ul class="header-options">
+                        <li><Link href="/"><a>Contact</a></Link></li>
+                        <li><Link href="/"><a>About</a></Link></li>
+                        <li><Link href="/"><a>Account</a></Link></li>
+                </ul>
             </div>
         </div>
         );
